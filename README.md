@@ -73,7 +73,7 @@ Move it to your project folder
 
 On the OAuth Consent Screen, under Test Users, add your Gmail address.
 
-## ✏️ Format of emails2.txt
+## ✏️ Format of emails.txt
 
 Each line contains:
 
@@ -84,7 +84,7 @@ Example:
 
 graphql
 CopyEdit
-nabeel@example.com,Nabeel
+ryustem@example.com,Ryustem
 stockholm@example.com,Stockholm
 ▶️ How to Run
 
