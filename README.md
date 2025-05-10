@@ -23,14 +23,8 @@ This project is a Python-based tool to automate the process of sending personali
 
 ## 📁 Folder Structure
 
-  project-root/
-│
-├── send_emails.py # Main script
-├── emails2.txt # List of recipients: email,name
-├── RyustemShabanResumeSV.pdf # Resume attachment
-├── Customer_Feedbacks.pdf # Feedback attachment
-├── client_secret_*.json # Google API credentials
-└── README.md
+  project-root/<br>
+ │<br>├── send_emails.py # Main script<br>├── emails2.txt # List of recipients: email,name<br>├── RyustemShabanResumeSV.pdf # Resume attachment<br>├── Customer_Feedbacks.pdf # Feedback attachment<br>├── client_secret_*.json # Google API credentials<br>└── README.md<br>
 
 
 ---
@@ -49,9 +43,9 @@ pip3 install --break-system-packages google-auth google-auth-oauthlib google-api
 
 
 
-🧠 Setup Instructions
+## 🧠 Setup Instructions
 
-1. Enable APIs in Google Cloud Console
+### 1. Enable APIs in Google Cloud Console
 
 Go to Google Cloud Console
 
@@ -63,7 +57,7 @@ Google Docs API
 
 Google Drive API
 
-2. Create OAuth Credentials
+### 2. Create OAuth Credentials
 
 Go to APIs & Services > Credentials
 
@@ -75,11 +69,11 @@ Download the JSON file and rename it to client_secret.json
 
 Move it to your project folder
 
-3. Add Yourself as a Test User
+### 3. Add Yourself as a Test User
 
 On the OAuth Consent Screen, under Test Users, add your Gmail address.
 
-✏️ Format of emails2.txt
+## ✏️ Format of emails2.txt
 
 Each line contains:
 
@@ -99,7 +93,7 @@ CopyEdit
 python3 send_emails.py
 You will be prompted to authenticate with your Google account the first time. A browser will open. Select your account and approve access.
 
-🛡 Security Notes
+## 🛡 Security Notes
 
 This project uses a Gmail App Password to send mail securely.
 
@@ -107,7 +101,7 @@ Your Google Docs are edited in-place — no additional copies are created.
 
 Emails are sent over SSL using Gmail’s SMTP server (smtp.gmail.com on port 465).
 
-📦 Optional Improvements
+## 📦 Optional Improvements
 
 Add HTML email support
 
